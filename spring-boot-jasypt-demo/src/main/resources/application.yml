@@ -1,0 +1,16 @@
+
+server:
+  port: 8877
+
+spring:
+  application:
+    name: backend #指定服务名
+  datasource:
+    username: root
+    password: ENC(daV7F8cFzZBTzwSQ4gVGAw==)
+    url: jdbc:mysql://localhost:3306/backend_db?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+jasypt:
+  encryptor:
+    password: zbbmeta

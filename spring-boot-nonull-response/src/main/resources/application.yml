@@ -1,0 +1,6 @@
+server:
+  port: 8866
+#spring:
+#  mvc:
+#    converters:
+#      preferred-json-mapper: fastjson
