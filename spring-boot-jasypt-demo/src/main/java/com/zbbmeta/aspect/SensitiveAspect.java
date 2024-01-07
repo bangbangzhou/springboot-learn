@@ -30,7 +30,7 @@ public class SensitiveAspect {
 
     @Around("pointCut()")
     public Object doAround(ProceedingJoinPoint joinPoint ) throws Throwable {
-        // 执行原有方法
+
 
         // 获取参数，对参数中加密字段，进行解密
         Object[] args = joinPoint.getArgs();
@@ -51,7 +51,7 @@ public class SensitiveAspect {
 
         }
 
-        Object returnValue = joinPoint.proceed(args);
+        Object returnValue = joinPoint.proceed(args);//执行方法获取返回值
 
         // 获取对象的字段及其值进行加密
         if (returnValue != null) {

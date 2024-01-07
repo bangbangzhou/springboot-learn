@@ -21,8 +21,6 @@ public class JasyptTest {
     @Test
     public void test1(){
         String encryptStr = stringEncryptor.encrypt("root");
-
-
         System.out.println("加密后的内容：" + encryptStr);
     }
 

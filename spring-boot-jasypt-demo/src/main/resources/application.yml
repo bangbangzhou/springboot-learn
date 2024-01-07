@@ -10,7 +10,11 @@ spring:
     password: ENC(daV7F8cFzZBTzwSQ4gVGAw==)
     url: jdbc:mysql://localhost:3306/backend_db?useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: zbb[daV7F8cFzZBTzwSQ4gVGAw==]
 
 jasypt:
   encryptor:
     password: zbbmeta
+#    property:
+#      prefix: "zbb["
+#      suffix: "]"

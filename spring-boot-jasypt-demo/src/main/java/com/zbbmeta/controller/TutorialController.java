@@ -18,8 +18,6 @@ public class TutorialController {
     @SensitiveMethod
     @PutMapping
     public Tutorial update(@RequestBody Tutorial tutorial){
-
-
         System.out.println("tutorial = " + tutorial);
         return tutorial;
     }

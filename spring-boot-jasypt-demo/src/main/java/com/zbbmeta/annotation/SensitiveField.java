@@ -8,7 +8,7 @@ import java.lang.annotation.*;
  * @description: TODO
  */
 @Documented
-@Target({ElementType.FIELD,ElementType.PARAMETER})
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface  SensitiveField {
 }
