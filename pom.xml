@@ -18,6 +18,10 @@
     <modules>
         <module>spring-boot-nonull-response</module>
         <module>spring-boot-jasypt-demo</module>
+        <module>spring-boot-componentandconfiguration-diff</module>
+        <module>spring-boot-modify-request</module>
+        <module>spring-boot-auto-demo</module>
+        <module>spring-boot-display-allbeans</module>
     </modules>
 
     <properties>

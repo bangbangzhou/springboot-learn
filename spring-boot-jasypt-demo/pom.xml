@@ -91,7 +91,7 @@
                     <imageName>zbbmeta/${project.artifactId}</imageName>
                     <imageTags>
 <!--                        镜像版本-->
-                        <imageTag>${project.version}</imageTag>
+                        <imageTag>latest</imageTag>
                     </imageTags>
                     <forceTags>true</forceTags>
                     <dockerDirectory>${project.basedir}</dockerDirectory>
