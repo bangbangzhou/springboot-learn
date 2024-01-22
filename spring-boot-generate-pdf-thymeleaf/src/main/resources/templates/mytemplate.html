@@ -1,0 +1,13 @@
+<!-- src/main/resources/templates/mytemplate.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>PDF Document</title>
+</head>
+<body style="font-family: 'SimSun'">
+<!--/*@thymesVar id="title" type=""*/-->
+<h1 th:text="${title}">Default Title</h1>
+<p th:text="${content}">Default Content</p>
+</body>
+</html>
