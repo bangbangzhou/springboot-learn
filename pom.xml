@@ -24,6 +24,7 @@
         <module>spring-boot-display-allbeans</module>
         <module>spring-boot-di-demo</module>
         <module>spring-boot-generate-pdf-thymeleaf</module>
+        <module>spring-boot-import-excel</module>
     </modules>
 
     <properties>
